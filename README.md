@@ -12,8 +12,7 @@ The work focuses on **accuracy, robustness under volatility, forecast horizon pe
 - Project: *Financial Time Series Forecasting — Evaluating Performance and Exploring Hybrid Approaches*
 - Artefacts included:
   - `dissertation/dissertation.pdf` (full dissertation report)
-  - `notebooks/updated_code.ipynb` (implementation notebook)
-
+  - `notebooks/ode.ipynb` 
 ## Decision Problem
 Financial markets are noisy and non-stationary. Traditional models can be interpretable but struggle with regime shifts and nonlinear behaviour, while ML models can improve accuracy but may increase computational cost and reduce interpretability.
 
@@ -55,11 +54,10 @@ Key reported metrics include:
 These findings align model choice with practical constraints (accuracy vs interpretability vs compute). :contentReference[oaicite:2]{index=2}
 
 ## Visual Outputs
-Add dissertation screenshots into `assets/` and embed them here:
 
-![Model accuracy comparison](assets/model_accuracy_comparison.png)
-![LSTM actual vs predicted](assets/lstm_actual_vs_predicted.png)
-![Random Forest actual vs predicted](assets/rf_actual_vs_predicted.png)
+![Model accuracy comparison](model_accuracy_comparison.png)
+![LSTM actual vs predicted](lstm_actual_vs_predicted.png)
+![Random Forest actual vs predicted](rf_actual_vs_predicted.png)
 
 ## How to Run (Reproducible)
 This repo provides the full report and implementation notebook.
