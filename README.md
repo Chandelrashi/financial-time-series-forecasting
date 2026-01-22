@@ -1,7 +1,7 @@
 # Financial Time Series Forecasting evaluating performances and exploring hybrid approach (ARIMA vs ML vs Hybrid)
 
 ## Overview
-This repository contains my dissertation project on **financial time series forecasting**, evaluating the performance of:
+This repository contains my project on **financial time series forecasting**, evaluating the performance of:
 - Traditional statistical models (ARIMA, Regression)
 - Machine learning models (Random Forest, LSTM)
 - Hybrid approaches (ARIMA + ML residual modelling)
